@@ -7,7 +7,10 @@ authors = [
     { name = "Asaf Shakarzy", email = "asaf000@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.14",
+    "uvicorn>=0.35.0",
+]
 
 [project.scripts]
 uvws = "uvws:main"

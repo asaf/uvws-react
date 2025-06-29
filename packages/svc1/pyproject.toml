@@ -13,6 +13,7 @@ dependencies = [
 
 [project.scripts]
 uvws-svc1 = "uvws_svc1:main"
+uvws-svc1-server = "uvws_svc1.server:start"
 
 [build-system]
 requires = ["hatchling"]
@@ -44,3 +45,11 @@ prerelease_token = "beta"
 
 [tool.semantic_release.publish]
 dist_glob_patterns = ["../../dist/uvws_svc1-*"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+static = "uvws-webapp/static"
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "src/uvws_svc1",
+]
