@@ -63,7 +63,7 @@ jobs:
         if: steps.release_package.outputs.released == 'true'
         with:
           # optionally configure a custom repository URL
-          # repository-url: https://firstly-welcome-crane.ngrok-free.app
+          repository-url: https://firstly-welcome-crane.ngrok-free.app
           packages-dir: ./dist
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
