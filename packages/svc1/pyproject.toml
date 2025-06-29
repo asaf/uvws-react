@@ -1,0 +1,22 @@
+[project]
+name = "uvws-svc1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Asaf Shakarzy", email = "asaf000@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "uvws-core",
+]
+
+[project.scripts]
+uvws-svc1 = "uvws_svc1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+uvws-core = { workspace = true }

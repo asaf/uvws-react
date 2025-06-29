@@ -1,0 +1,25 @@
+[project]
+name = "uvws"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Asaf Shakarzy", email = "asaf000@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+uvws = "uvws:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.workspace]
+members = ["packages/core", "packages/svc1"]
+
+[dependency-groups]
+dev = [
+    "python-semantic-release>=10.1.0",
+]
