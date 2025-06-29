@@ -4,4 +4,4 @@ def main() -> None:
 __version__ = "0.0.0"
 
 def hi() -> str:
-    return "hi from core"
+    return "hi from core!"
