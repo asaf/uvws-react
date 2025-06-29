@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "uvws-core==0.1.1"
+    "uvws-core==0.1.0"
 ]
 
 [project.scripts]
