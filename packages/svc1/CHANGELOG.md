@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.2 (2025-06-29)
+
+### Bug Fixes
+
+- **svc1**: A minor svc1 change v2
+  ([`3dfaaee`](https://github.com/asaf/uvws-react/commit/3dfaaee29c7c1fbdd4037a877d9566d287922dca))
+
+
 ## v0.1.1 (2025-06-29)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 from uvws_core import hi
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 
 def main() -> None:
