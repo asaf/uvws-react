@@ -43,7 +43,7 @@ jobs:
       - name: Build | Build UI (webapp)
         run: |
           cd webapp
-          npm build
+          npm run build
           #pnpm build
 
       - name: Upload build artifacts
