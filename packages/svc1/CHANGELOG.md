@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.1.3 (2025-06-29)
+
+### Bug Fixes
+
+- **svc1**: Svc1 init change
+  ([`593e670`](https://github.com/asaf/uvws-react/commit/593e6704c55395aa2caf77ab70ae229afcaab5d0))
+
+### Chores
+
+- **svc1**: Update workspace dependencies [skip ci]
+  ([`6c846ae`](https://github.com/asaf/uvws-react/commit/6c846aecb2f0694868e09006d5e74cee0f448193))
+
+
 ## v0.1.2 (2025-06-29)
 
 ### Bug Fixes
